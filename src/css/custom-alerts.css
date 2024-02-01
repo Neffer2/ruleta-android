@@ -1,0 +1,17 @@
+@font-face {
+    font-family: pro-bold;
+    src: url("../assets/fonts/D-DIN-PRO-800-ExtraBold.otf")  format('truetype');
+}
+
+.swal2-styled.swal2-confirm {
+    background-color: #A1AFB5 !important;
+    border-color: #A1AFB5 !important;
+    padding: 0 3rem !important;
+    font-size: 2rem !important;
+}
+
+.swal2-title {
+    font-family: pro-bold, Arial, Helvetica, sans-serif !important;
+    color: white !important;
+    text-shadow: 1px 1px 2px black;
+}

@@ -1,0 +1,116 @@
+@font-face {
+    font-family: pro-bold;
+    src: url("../assets/fonts/D-DIN-PRO-800-ExtraBold.otf")  format('truetype');
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: .8; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+body {
+    font-family: pro-bold, Arial, Helvetica, sans-serif;
+}
+
+
+input[type="text"] {
+    color: black;
+    background-color: #FE1509;
+    border-left: none;
+    border-color: #FE1509;
+}
+
+input[type="email"] {
+    color: black;
+    background-color: #FE1509;
+    border-color: #FE1509;
+    border-left: none;
+}
+
+input[type="checkbox"] {
+    color: black;
+    background-color: #A1AFB5;
+    /* border-color: #FE1509; */
+}
+
+input[type="checkbox"]:active {
+    color: black;
+    background-color: #FE1509;
+    /* border-color: #FE1509; */
+}
+
+select {
+    color: white !important;
+    background-color: #FE1509 !important;
+    border-color: #FE1509 !important;
+    border-left: none !important;
+}
+
+.form-check-input:checked {
+    background-color: #FE1509 !important;
+    border-color: #FE1509 !important;
+}
+
+.form-container {
+    background: white;
+    border-radius: 8px;
+}
+
+.container {
+    padding: 0 20rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header {
+    color: white;
+    background-color: #FE1509;
+    text-align: center;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    padding: .5rem 5rem;
+} 
+
+.btn-primary {
+    background-color: #A1AFB5;
+    border-color: #A1AFB5;
+    padding: 0 3rem;
+    font-size: 2rem;
+}
+
+.icon-container {
+    color: #A1AFB5;
+    padding: .1rem .3rem;
+    border-radius: 20rem;
+    background-color: white;
+}
+
+.user {
+    padding: .1rem .4rem;  
+}
+
+.input-group-text {
+    background-color: #FE1509;
+    border-color: #FE1509;
+}
+
+
+.bg-danger {
+    background-color: #FE1509 !important;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 0;
+    }
+}
